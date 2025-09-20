@@ -127,5 +127,9 @@ if (!builder.Environment.IsDevelopment())
         .WithVolume("vhost", "/etc/nginx/vhost.d", false)
         .WithVolume("acme", "/etc/acme.sh");
 }
+else
+{
+    keycloak.WithRealmImport("../infra/realms");
+}
 
 builder.Build().Run();

@@ -4,7 +4,6 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 /infra/.env
-/infra/realms/overflow-realm.json
 /infra/devcerts/overflow.local.key
 /infra/devcerts/overflow.local.crt
 /infra/do/*
