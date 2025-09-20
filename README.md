@@ -16,10 +16,12 @@ git clone https://github.com/TryCatchLearn/Overflow.git
 cd Overflow
 ```
 3. Ensure you have Docker Desktop installed on your machine.  If not download and install from Docker and review their installation instructions for your Operating system [here](https://docs.docker.com/desktop/).
-4. Execute the following commands to install the packages for the .Net and NextJS app (you will need the .Net SDK and NodeJS installed to use these commands)
+4. Execute the following commands to install the packages for the .Net and NextJS app (you will need the .Net SDK and NodeJS installed to use these commands). We also need to set a password for the typesense service in the dotnet user-secrets
 ```
 dotnet restore
-cd webapp
+cd Overflow.AppHost
+dotnet user-secrets set "Parameters:typesense-api-key" "abc"
+cd ../webapp
 npm install
 ```
 5. Open the solution in your IDE of choice and run the Overflow.AppHost project
