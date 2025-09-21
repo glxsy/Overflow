@@ -1,8 +1,8 @@
 # Aspire Course repository
 
-This is the repository for the Aspire 'Overlow' app created for the Udemy course released in September 2025.
+This is the repository for the Aspire 'Overlow' app created for the Udemy course released in September 2025.  You can see a demo of this app [here](https://www.udemy.com/course/build-a-microservices-app-with-dotnet-and-nextjs-from-scratch/?couponCode=NEWCOURSEPROM) .
 
-You can see how this app was made by checking out the Udemy course for this [here](https://www.udemy.com/course/build-a-microservices-app-with-dotnet-and-nextjs-from-scratch/?couponCode=NEWCOURSEPROM) (with discount)
+You can see how this app was made by checking out the Udemy course for this [here](https://overflow.trycatchlearn.com/)
 
 You can run this app locally on your computer by following these instructions:
 
