@@ -12,6 +12,10 @@ public class Question
     public required string Content { get; set; }
     [MaxLength(36)]
     public required string AskerId { get; set; }
+      //与教程缺少
+    [MaxLength(300)]
+    public string AskerDisplayName { get; set; }
+  
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }
     public int ViewCount { get; set; }
